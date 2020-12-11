@@ -1,8 +1,5 @@
 
 package student_registration_class;
-
-import Student_Registration_system.classpackage.*;
-
 /**
  *
  * @Tanmoy paul
