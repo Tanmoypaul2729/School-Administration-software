@@ -1,5 +1,5 @@
 
-package Student_Registration_system.Student_Registration_system_class;
+package student_registration_class;
 
 import Student_Registration_system.classpackage.*;
 
