@@ -24,9 +24,8 @@ private int dirertorid;
 private String dirertoremil;
 private String dirertorpassword;
 
-    
-
-    public user(int id, String stdName, String stdFatherName, String stdBlood, String stdAdress, String stdPhone, String Batch) {
+  
+public user(int id, String stdName, String stdFatherName, String stdBlood, String stdAdress, String stdPhone, String Batch) {
         this.id = id;
         this.stdName = stdName;
         this.stdFatherName = stdFatherName;
@@ -35,7 +34,7 @@ private String dirertorpassword;
         this.stdPhone = stdPhone;
         this.Batch = Batch;
     }
-    public void Edit(int id, String stdName, String stdFatherName, String stdBlood, String stdAdress, String stdPhone, String Batch) {
+ public void Edit(int id, String stdName, String stdFatherName, String stdBlood, String stdAdress, String stdPhone, String Batch) {
         this.id = id;
         this.stdName = stdName;
         this.stdFatherName = stdFatherName;
@@ -44,7 +43,7 @@ private String dirertorpassword;
         this.stdPhone = stdPhone;
         this.Batch = Batch;
 }
-    public void Add_admin(int adminid, String adminName, String adminemil, String adminpassword, int dirertorid, String dirertoremil, String dirertorpassword) {
+public void Add_admin(int adminid, String adminName, String adminemil, String adminpassword, int dirertorid, String dirertoremil, String dirertorpassword) {
         this.adminid = adminid;
         this.adminName = adminName;
         this.adminemil = adminemil;
@@ -54,7 +53,7 @@ private String dirertorpassword;
         this.dirertorpassword = dirertorpassword;
     }
 
-    public void Dirertor(int dirertorid, String dirertoremil, String dirertorpassword) {
+public void Dirertor(int dirertorid, String dirertoremil, String dirertorpassword) {
         this.dirertorid = dirertorid;
         this.dirertoremil = dirertoremil;
         this.dirertorpassword = dirertorpassword;
